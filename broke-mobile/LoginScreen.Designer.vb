@@ -150,12 +150,12 @@ Partial Class LoginScreen
         Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(31, 13)
+        Me.Label3.Location = New System.Drawing.Point(39, 16)
         Me.Label3.Margin = New System.Windows.Forms.Padding(3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(143, 20)
+        Me.Label3.Size = New System.Drawing.Size(129, 17)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Wrong Password"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
