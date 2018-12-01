@@ -93,11 +93,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="MainScreen.Designer.vb">
+      <DependentUpon>MainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="RegisterScreen.Designer.vb">
+      <DependentUpon>RegisterScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetScreen.Designer.vb">
+      <DependentUpon>ResetScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreen.Designer.vb">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -117,6 +141,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterScreen.resx">
+      <DependentUpon>RegisterScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetScreen.resx">
+      <DependentUpon>ResetScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreen.resx">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -155,6 +194,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>brokeMobileDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Budget-Mobile.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
