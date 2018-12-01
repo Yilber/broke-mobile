@@ -99,6 +99,18 @@
     <Compile Include="MainScreen.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RegisterScreen.Designer.vb">
+      <DependentUpon>RegisterScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetScreen.Designer.vb">
+      <DependentUpon>ResetScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SplashScreen.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +143,12 @@
   <ItemGroup>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterScreen.resx">
+      <DependentUpon>RegisterScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetScreen.resx">
+      <DependentUpon>ResetScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.vb</DependentUpon>
