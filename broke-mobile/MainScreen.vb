@@ -70,22 +70,22 @@
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
         Me.Hide()
-        ProductPage.Show()
+        ProductPageScreen.Show()
     End Sub
 
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
         Me.Hide()
-        History.Show()
+        HistoryScreen.Show()
     End Sub
 
     Private Sub btnShoppingCart_Click(sender As Object, e As EventArgs) Handles btnShoppingCart.Click
         Me.Hide()
-        ShoppingCart.Show()
+        ShoppingCartScreen.Show()
     End Sub
 
     Private Sub btnAboutUs_Click(sender As Object, e As EventArgs) Handles btnAboutUs.Click
         Me.Hide()
-        AboutUs.Show()
+        AboutUsScreen.Show()
     End Sub
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click

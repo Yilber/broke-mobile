@@ -11,7 +11,7 @@
         myTimer.Stop()
 
         Dim LoginScreen As New LoginScreen
-        Me.Hide()
-        LoginScreen.Show()
+        Hide()
+        MainScreen.Show()
     End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ProductPage
+Partial Class ProductPageScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -67,7 +67,7 @@ Partial Class ProductPage
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(100, 50)
         Me.btnHome.TabIndex = 4
-        Me.btnHome.Text = "Home"
+        Me.btnHome.Text = "Login"
         Me.btnHome.UseVisualStyleBackColor = False
         '
         'btnAboutUs
@@ -122,7 +122,7 @@ Partial Class ProductPage
         Me.btnProducts.Text = "Products"
         Me.btnProducts.UseVisualStyleBackColor = False
         '
-        'MainScreen
+        'ProductPageScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -130,7 +130,7 @@ Partial Class ProductPage
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "ProductPage"
+        Me.Name = "ProductPageScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ProductPage"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

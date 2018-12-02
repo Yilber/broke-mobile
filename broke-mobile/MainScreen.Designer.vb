@@ -67,7 +67,7 @@ Partial Class MainScreen
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(100, 50)
         Me.btnHome.TabIndex = 4
-        Me.btnHome.Text = "Home"
+        Me.btnHome.Text = "Login"
         Me.btnHome.UseVisualStyleBackColor = False
         '
         'btnAboutUs

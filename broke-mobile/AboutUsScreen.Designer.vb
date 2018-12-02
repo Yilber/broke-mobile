@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ShoppingCart
+Partial Class AboutUsScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -67,7 +67,7 @@ Partial Class ShoppingCart
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(100, 50)
         Me.btnHome.TabIndex = 4
-        Me.btnHome.Text = "Home"
+        Me.btnHome.Text = "Login"
         Me.btnHome.UseVisualStyleBackColor = False
         '
         'btnAboutUs
@@ -122,7 +122,7 @@ Partial Class ShoppingCart
         Me.btnProducts.Text = "Products"
         Me.btnProducts.UseVisualStyleBackColor = False
         '
-        'MainScreen
+        'AboutUsScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -130,9 +130,9 @@ Partial Class ShoppingCart
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "ShoppingCart"
+        Me.Name = "AboutUsScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "shoppingCart"
+        Me.Text = "AboutUs"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

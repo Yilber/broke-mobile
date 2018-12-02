@@ -124,9 +124,6 @@
   <data name="Budget_Mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Budget-Mobile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Image 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="image_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -180,5 +177,8 @@
   </data>
   <data name="Phone_Names_in_order1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Phone Names in order.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

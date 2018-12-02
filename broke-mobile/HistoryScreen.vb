@@ -1,4 +1,4 @@
-﻿Public Class History
+﻿Public Class HistoryScreen
     Private Sub btnProducts_MouseHover(sender As Object, e As EventArgs) Handles btnProducts.MouseHover
         btnProducts.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         btnProducts.ForeColor = System.Drawing.Color.White
@@ -61,17 +61,17 @@
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
         Me.Hide()
-        ProductPage.Show()
+        ProductPageScreen.Show()
     End Sub
 
     Private Sub btnShoppingCart_Click(sender As Object, e As EventArgs) Handles btnShoppingCart.Click
         Me.Hide()
-        ShoppingCart.Show()
+        ShoppingCartScreen.Show()
     End Sub
 
     Private Sub btnAboutUs_Click(sender As Object, e As EventArgs) Handles btnAboutUs.Click
         Me.Hide()
-        AboutUs.Show()
+        AboutUsScreen.Show()
     End Sub
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click

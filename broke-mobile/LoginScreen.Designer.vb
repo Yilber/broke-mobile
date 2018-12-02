@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LoginScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,8 @@ Partial Class LoginScreen
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.UsernameBox = New System.Windows.Forms.TextBox()
         Me.PasswordBox = New System.Windows.Forms.TextBox()
         Me.LoginBtn = New System.Windows.Forms.Button()
@@ -33,10 +32,8 @@ Partial Class LoginScreen
         Me.TryAgainBtn = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.RegisterBtn = New System.Windows.Forms.Button()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.WrongPassword.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -47,7 +44,7 @@ Partial Class LoginScreen
         Me.UsernameBox.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.UsernameBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(134, Byte))
         Me.UsernameBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.UsernameBox.Location = New System.Drawing.Point(263, 125)
+        Me.UsernameBox.Location = New System.Drawing.Point(507, 242)
         Me.UsernameBox.Name = "UsernameBox"
         Me.UsernameBox.Size = New System.Drawing.Size(100, 21)
         Me.UsernameBox.TabIndex = 0
@@ -57,7 +54,7 @@ Partial Class LoginScreen
         Me.PasswordBox.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PasswordBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(134, Byte))
         Me.PasswordBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.PasswordBox.Location = New System.Drawing.Point(263, 152)
+        Me.PasswordBox.Location = New System.Drawing.Point(507, 269)
         Me.PasswordBox.Name = "PasswordBox"
         Me.PasswordBox.Size = New System.Drawing.Size(100, 21)
         Me.PasswordBox.TabIndex = 1
@@ -71,7 +68,7 @@ Partial Class LoginScreen
         Me.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.LoginBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.LoginBtn.Location = New System.Drawing.Point(263, 179)
+        Me.LoginBtn.Location = New System.Drawing.Point(507, 296)
         Me.LoginBtn.Name = "LoginBtn"
         Me.LoginBtn.Padding = New System.Windows.Forms.Padding(2)
         Me.LoginBtn.Size = New System.Drawing.Size(100, 31)
@@ -86,7 +83,7 @@ Partial Class LoginScreen
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(166, 125)
+        Me.Label1.Location = New System.Drawing.Point(410, 242)
         Me.Label1.Margin = New System.Windows.Forms.Padding(3)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 20)
@@ -100,7 +97,7 @@ Partial Class LoginScreen
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(171, 151)
+        Me.Label2.Location = New System.Drawing.Point(415, 268)
         Me.Label2.Margin = New System.Windows.Forms.Padding(3)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 20)
@@ -114,9 +111,9 @@ Partial Class LoginScreen
         Me.WrongPassword.Controls.Add(Me.PasswordResetBtn)
         Me.WrongPassword.Controls.Add(Me.TryAgainBtn)
         Me.WrongPassword.Controls.Add(Me.Label3)
-        Me.WrongPassword.Location = New System.Drawing.Point(157, 124)
+        Me.WrongPassword.Location = New System.Drawing.Point(401, 241)
         Me.WrongPassword.Name = "WrongPassword"
-        Me.WrongPassword.Size = New System.Drawing.Size(206, 85)
+        Me.WrongPassword.Size = New System.Drawing.Size(206, 86)
         Me.WrongPassword.TabIndex = 4
         Me.WrongPassword.Visible = False
         '
@@ -128,7 +125,7 @@ Partial Class LoginScreen
         Me.PasswordResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PasswordResetBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.PasswordResetBtn.ForeColor = System.Drawing.Color.White
-        Me.PasswordResetBtn.Location = New System.Drawing.Point(107, 39)
+        Me.PasswordResetBtn.Location = New System.Drawing.Point(107, 40)
         Me.PasswordResetBtn.Name = "PasswordResetBtn"
         Me.PasswordResetBtn.Padding = New System.Windows.Forms.Padding(2)
         Me.PasswordResetBtn.Size = New System.Drawing.Size(82, 31)
@@ -144,7 +141,7 @@ Partial Class LoginScreen
         Me.TryAgainBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TryAgainBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.TryAgainBtn.ForeColor = System.Drawing.Color.White
-        Me.TryAgainBtn.Location = New System.Drawing.Point(19, 39)
+        Me.TryAgainBtn.Location = New System.Drawing.Point(19, 40)
         Me.TryAgainBtn.Name = "TryAgainBtn"
         Me.TryAgainBtn.Padding = New System.Windows.Forms.Padding(2)
         Me.TryAgainBtn.Size = New System.Drawing.Size(82, 31)
@@ -159,7 +156,7 @@ Partial Class LoginScreen
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(39, 16)
+        Me.Label3.Location = New System.Drawing.Point(39, 17)
         Me.Label3.Margin = New System.Windows.Forms.Padding(3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(129, 17)
@@ -175,7 +172,7 @@ Partial Class LoginScreen
         Me.RegisterBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.RegisterBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.RegisterBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.RegisterBtn.Location = New System.Drawing.Point(157, 179)
+        Me.RegisterBtn.Location = New System.Drawing.Point(401, 296)
         Me.RegisterBtn.Name = "RegisterBtn"
         Me.RegisterBtn.Padding = New System.Windows.Forms.Padding(2)
         Me.RegisterBtn.Size = New System.Drawing.Size(100, 31)
@@ -183,34 +180,30 @@ Partial Class LoginScreen
         Me.RegisterBtn.Text = "Register"
         Me.RegisterBtn.UseVisualStyleBackColor = False
         '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1000
-        '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.BackColor = System.Drawing.Color.White
-        Me.PictureBox1.Location = New System.Drawing.Point(150, 175)
+        Me.PictureBox1.Image = Global.broke_mobile.My.Resources.Resources.image_1
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 34)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(600, 600)
+        Me.PictureBox1.Size = New System.Drawing.Size(390, 500)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
         'PictureBox2
         '
-        Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Location = New System.Drawing.Point(-150, 175)
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PictureBox2.Image = Global.broke_mobile.My.Resources.Resources.image_14
+        Me.PictureBox2.Location = New System.Drawing.Point(618, 34)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(600, 600)
+        Me.PictureBox2.Size = New System.Drawing.Size(390, 500)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
-        '
-        'Timer2
-        '
-        Me.Timer2.Interval = 1000
         '
         'LoginScreen
         '
@@ -218,7 +211,7 @@ Partial Class LoginScreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(528, 333)
+        Me.ClientSize = New System.Drawing.Size(1008, 566)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.WrongPassword)
         Me.Controls.Add(Me.Label2)
@@ -251,7 +244,5 @@ Partial Class LoginScreen
     Friend WithEvents PasswordResetBtn As Button
     Friend WithEvents RegisterBtn As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Timer1 As Timer
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Timer2 As Timer
 End Class

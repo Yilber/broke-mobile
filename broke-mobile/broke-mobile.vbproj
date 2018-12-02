@@ -94,10 +94,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutUs.Designer.vb">
-      <DependentUpon>AboutUs.vb</DependentUpon>
+    <Compile Include="AboutUsScreen.Designer.vb">
+      <DependentUpon>AboutUsScreen.vb</DependentUpon>
     </Compile>
-    <Compile Include="AboutUs.vb">
+    <Compile Include="AboutUsScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="brokeMobileDBDataSet.Designer.vb">
@@ -105,10 +105,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="History.Designer.vb">
-      <DependentUpon>History.vb</DependentUpon>
+    <Compile Include="HistoryScreen.Designer.vb">
+      <DependentUpon>HistoryScreen.vb</DependentUpon>
     </Compile>
-    <Compile Include="History.vb">
+    <Compile Include="HistoryScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainScreen.Designer.vb">
@@ -122,10 +122,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ProductPage.Designer.vb">
-      <DependentUpon>ProductPage.vb</DependentUpon>
+    <Compile Include="ProductPageScreen.Designer.vb">
+      <DependentUpon>ProductPageScreen.vb</DependentUpon>
     </Compile>
-    <Compile Include="ProductPage.vb">
+    <Compile Include="ProductPageScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RegisterScreen.Designer.vb">
@@ -140,10 +140,10 @@
     <Compile Include="ResetScreen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShoppingCart.Designer.vb">
-      <DependentUpon>ShoppingCart.vb</DependentUpon>
+    <Compile Include="ShoppingCartScreen.Designer.vb">
+      <DependentUpon>ShoppingCartScreen.vb</DependentUpon>
     </Compile>
-    <Compile Include="ShoppingCart.vb">
+    <Compile Include="ShoppingCartScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SplashScreen.vb">
@@ -171,14 +171,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutUsScreen.resx">
+      <DependentUpon>AboutUsScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryScreen.resx">
+      <DependentUpon>HistoryScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductPageScreen.resx">
+      <DependentUpon>ProductPageScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterScreen.resx">
       <DependentUpon>RegisterScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ResetScreen.resx">
       <DependentUpon>ResetScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShoppingCartScreen.resx">
+      <DependentUpon>ShoppingCartScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.vb</DependentUpon>
@@ -224,6 +236,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>brokeMobileDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\image 1.png" />
     <None Include="Resources\Phone Names in order.txt" />
     <None Include="Resources\image 18.png" />
     <None Include="Resources\image 17.png" />
@@ -242,7 +255,6 @@
     <None Include="Resources\image 4.png" />
     <None Include="Resources\image 3.png" />
     <None Include="Resources\image 2.png" />
-    <None Include="Resources\Image 1.png" />
     <None Include="Resources\Budget-Mobile.png" />
   </ItemGroup>
   <ItemGroup>
