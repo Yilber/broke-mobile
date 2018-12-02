@@ -37,7 +37,7 @@ Partial Class ShoppingCartScreen
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox1.Image = Global.broke_mobile.My.Resources.Resources.Budget_Mobile
-        Me.PictureBox1.Location = New System.Drawing.Point(100, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(129, 96)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(542, 85)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
