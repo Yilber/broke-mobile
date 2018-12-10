@@ -38,8 +38,9 @@ Partial Class ResetScreen
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(198, 163)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(73, 15)
@@ -51,10 +52,10 @@ Partial Class ResetScreen
         '
         Me.ResetBtn.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ResetBtn.AutoSize = True
-        Me.ResetBtn.BackColor = System.Drawing.Color.White
+        Me.ResetBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ResetBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.ResetBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.ResetBtn.ForeColor = System.Drawing.Color.White
         Me.ResetBtn.Location = New System.Drawing.Point(255, 211)
         Me.ResetBtn.Name = "ResetBtn"
         Me.ResetBtn.Size = New System.Drawing.Size(75, 27)
@@ -76,8 +77,9 @@ Partial Class ResetScreen
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(227, 190)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 15)
@@ -99,8 +101,9 @@ Partial Class ResetScreen
         '
         Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(218, 127)
         Me.Label3.Margin = New System.Windows.Forms.Padding(3)
         Me.Label3.Name = "Label3"
@@ -113,6 +116,7 @@ Partial Class ResetScreen
         '
         Me.PasswordResetPanel.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PasswordResetPanel.BackColor = System.Drawing.Color.White
+        Me.PasswordResetPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PasswordResetPanel.Controls.Add(Me.Label4)
         Me.PasswordResetPanel.Controls.Add(Me.Button1)
         Me.PasswordResetPanel.Location = New System.Drawing.Point(157, 129)
@@ -127,7 +131,7 @@ Partial Class ResetScreen
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(6, 29)
+        Me.Label4.Location = New System.Drawing.Point(5, 28)
         Me.Label4.Margin = New System.Windows.Forms.Padding(3)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(257, 15)
@@ -141,9 +145,9 @@ Partial Class ResetScreen
         Me.Button1.AutoSize = True
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(97, 55)
+        Me.Button1.Location = New System.Drawing.Point(96, 54)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 27)
         Me.Button1.TabIndex = 0
@@ -155,7 +159,7 @@ Partial Class ResetScreen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(583, 370)
         Me.Controls.Add(Me.PasswordResetPanel)
         Me.Controls.Add(Me.EmailBox)

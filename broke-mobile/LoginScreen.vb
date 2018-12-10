@@ -19,7 +19,26 @@
     End Sub
 
     Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
-        If UsernameBox.Text.Equals("john") And PasswordBox.Text.Equals("1234") Then
+        Dim myconn As New SqlClient.SqlConnection
+        Dim mycommand As New SqlClient.SqlCommand
+        Dim myadapter As New SqlClient.SqlDataAdapter
+        Dim mydt As New DataTable
+
+        myconn.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\wamp\www\broke-mobile\broke-mobile\brokeMobileDB.mdf;Integrated Security=True;Connect Timeout=30"
+        myconn.Open()
+        mycommand = New SqlClient.SqlCommand
+        mycommand.CommandText = "Select user_id from users where username = @username and password = @password"
+        mycommand.Parameters.Add("@username", SqlDbType.VarChar, 50)
+        mycommand.Parameters("@username").Value = UsernameBox.Text
+        mycommand.Parameters.Add("@password", SqlDbType.VarChar, 50)
+        mycommand.Parameters("@password").Value = PasswordBox.Text
+        mycommand.Connection = myconn
+
+        mydt = New DataTable
+        myadapter.SelectCommand = mycommand
+        myadapter.Fill(mydt)
+
+        If mydt.Rows.Count.ToString > 0 Then
             'opens main window'
             MainScreen.Show()
             Hide()
