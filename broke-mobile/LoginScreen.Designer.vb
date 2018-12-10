@@ -112,7 +112,7 @@ Partial Class LoginScreen
         Me.WrongPassword.Controls.Add(Me.PasswordResetBtn)
         Me.WrongPassword.Controls.Add(Me.TryAgainBtn)
         Me.WrongPassword.Controls.Add(Me.Label3)
-        Me.WrongPassword.Location = New System.Drawing.Point(393, 380)
+        Me.WrongPassword.Location = New System.Drawing.Point(401, 241)
         Me.WrongPassword.Name = "WrongPassword"
         Me.WrongPassword.Size = New System.Drawing.Size(206, 86)
         Me.WrongPassword.TabIndex = 4
