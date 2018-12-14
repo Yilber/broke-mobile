@@ -111,6 +111,12 @@
     <Compile Include="CustomMessageBox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GlobalVariables.Designer.vb">
+      <DependentUpon>GlobalVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="HistoryScreen.Designer.vb">
       <DependentUpon>HistoryScreen.vb</DependentUpon>
     </Compile>
@@ -127,6 +133,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInformation.Designer.vb">
+      <DependentUpon>ProductInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInformation.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProductPageScreen.Designer.vb">
       <DependentUpon>ProductPageScreen.vb</DependentUpon>
@@ -183,11 +195,17 @@
     <EmbeddedResource Include="CustomMessageBox.resx">
       <DependentUpon>CustomMessageBox.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GlobalVariables.resx">
+      <DependentUpon>GlobalVariables.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HistoryScreen.resx">
       <DependentUpon>HistoryScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductInformation.resx">
+      <DependentUpon>ProductInformation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductPageScreen.resx">
       <DependentUpon>ProductPageScreen.vb</DependentUpon>

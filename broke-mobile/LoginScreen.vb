@@ -8,12 +8,15 @@
     End Sub
 
     Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
+        GlobalVariables.UserID = -1
+        GlobalVariables.setLogin(False)
+
         Dim myconn As New SqlClient.SqlConnection
         Dim mycommand As New SqlClient.SqlCommand
         Dim myadapter As New SqlClient.SqlDataAdapter
         Dim mydt As New DataTable
 
-        myconn.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\wamp\www\broke-mobile\broke-mobile\brokeMobileDB.mdf;Integrated Security=True;Connect Timeout=30"
+        myconn.ConnectionString = GlobalVariables.ConnectionString
         myconn.Open()
         mycommand = New SqlClient.SqlCommand
         mycommand.CommandText = "Select user_id from users where username = @username and password = @password"
@@ -29,6 +32,9 @@
 
         If mydt.Rows.Count.ToString > 0 Then
             'opens main window'
+            GlobalVariables.UserID = mydt.Rows(0).Item(0).ToString
+            GlobalVariables.setLogin(True)
+
             MainScreen.Show()
             Hide()
         Else

@@ -79,4 +79,28 @@
         Me.Hide()
         LoginScreen.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Dim frm1 As New ProductInformation(1)
+        GlobalVariables.ProductID = 1
+
+        Me.Hide()
+        ProductInformation.Show()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'Dim frm1 As New ProductInformation(3)
+        GlobalVariables.ProductID = 3
+
+        Me.Hide()
+        ProductInformation.Show()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'Dim frm1 As New ProductInformation(5)
+        GlobalVariables.ProductID = 5
+
+        Me.Hide()
+        ProductInformation.Show()
+    End Sub
 End Class

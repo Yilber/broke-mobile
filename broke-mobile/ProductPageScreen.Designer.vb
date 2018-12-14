@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ProductPageScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ProductPageScreen
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -29,6 +29,9 @@ Partial Class ProductPageScreen
         Me.btnShoppingCart = New System.Windows.Forms.Button()
         Me.btnHistory = New System.Windows.Forms.Button()
         Me.btnProducts = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -37,7 +40,8 @@ Partial Class ProductPageScreen
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox1.Image = Global.broke_mobile.My.Resources.Resources.Budget_Mobile
-        Me.PictureBox1.Location = New System.Drawing.Point(100, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(133, 0)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(542, 85)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -52,9 +56,10 @@ Partial Class ProductPageScreen
         Me.Panel1.Controls.Add(Me.btnShoppingCart)
         Me.Panel1.Controls.Add(Me.btnHistory)
         Me.Panel1.Controls.Add(Me.btnProducts)
-        Me.Panel1.Location = New System.Drawing.Point(12, 330)
+        Me.Panel1.Location = New System.Drawing.Point(16, 406)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(770, 85)
+        Me.Panel1.Size = New System.Drawing.Size(1027, 105)
         Me.Panel1.TabIndex = 1
         '
         'btnHome
@@ -63,9 +68,10 @@ Partial Class ProductPageScreen
         Me.btnHome.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnHome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnHome.Location = New System.Drawing.Point(650, 15)
+        Me.btnHome.Location = New System.Drawing.Point(867, 18)
+        Me.btnHome.Margin = New System.Windows.Forms.Padding(4)
         Me.btnHome.Name = "btnHome"
-        Me.btnHome.Size = New System.Drawing.Size(100, 50)
+        Me.btnHome.Size = New System.Drawing.Size(133, 62)
         Me.btnHome.TabIndex = 4
         Me.btnHome.Text = "Login"
         Me.btnHome.UseVisualStyleBackColor = False
@@ -76,9 +82,10 @@ Partial Class ProductPageScreen
         Me.btnAboutUs.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAboutUs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAboutUs.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnAboutUs.Location = New System.Drawing.Point(500, 15)
+        Me.btnAboutUs.Location = New System.Drawing.Point(667, 18)
+        Me.btnAboutUs.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAboutUs.Name = "btnAboutUs"
-        Me.btnAboutUs.Size = New System.Drawing.Size(100, 50)
+        Me.btnAboutUs.Size = New System.Drawing.Size(133, 62)
         Me.btnAboutUs.TabIndex = 3
         Me.btnAboutUs.Text = "About Us"
         Me.btnAboutUs.UseVisualStyleBackColor = False
@@ -89,9 +96,10 @@ Partial Class ProductPageScreen
         Me.btnShoppingCart.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnShoppingCart.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnShoppingCart.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnShoppingCart.Location = New System.Drawing.Point(350, 15)
+        Me.btnShoppingCart.Location = New System.Drawing.Point(467, 18)
+        Me.btnShoppingCart.Margin = New System.Windows.Forms.Padding(4)
         Me.btnShoppingCart.Name = "btnShoppingCart"
-        Me.btnShoppingCart.Size = New System.Drawing.Size(100, 50)
+        Me.btnShoppingCart.Size = New System.Drawing.Size(133, 62)
         Me.btnShoppingCart.TabIndex = 2
         Me.btnShoppingCart.Text = "Shopping Cart"
         Me.btnShoppingCart.UseVisualStyleBackColor = False
@@ -102,9 +110,10 @@ Partial Class ProductPageScreen
         Me.btnHistory.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnHistory.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHistory.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnHistory.Location = New System.Drawing.Point(200, 15)
+        Me.btnHistory.Location = New System.Drawing.Point(267, 18)
+        Me.btnHistory.Margin = New System.Windows.Forms.Padding(4)
         Me.btnHistory.Name = "btnHistory"
-        Me.btnHistory.Size = New System.Drawing.Size(100, 50)
+        Me.btnHistory.Size = New System.Drawing.Size(133, 62)
         Me.btnHistory.TabIndex = 1
         Me.btnHistory.Text = "History"
         Me.btnHistory.UseVisualStyleBackColor = False
@@ -115,21 +124,53 @@ Partial Class ProductPageScreen
         Me.btnProducts.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnProducts.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProducts.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnProducts.Location = New System.Drawing.Point(50, 15)
+        Me.btnProducts.Location = New System.Drawing.Point(67, 18)
+        Me.btnProducts.Margin = New System.Windows.Forms.Padding(4)
         Me.btnProducts.Name = "btnProducts"
-        Me.btnProducts.Size = New System.Drawing.Size(100, 50)
+        Me.btnProducts.Size = New System.Drawing.Size(133, 62)
         Me.btnProducts.TabIndex = 0
         Me.btnProducts.Text = "Products"
         Me.btnProducts.UseVisualStyleBackColor = False
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(549, 161)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "phone3"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(368, 161)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "phone2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(182, 161)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "phone1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'ProductPageScreen
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ProductPageScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ProductPage"
@@ -148,4 +189,7 @@ Partial Class ProductPageScreen
     Friend WithEvents btnShoppingCart As Button
     Friend WithEvents btnHistory As Button
     Friend WithEvents btnProducts As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class

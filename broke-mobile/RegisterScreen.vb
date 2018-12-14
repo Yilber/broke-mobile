@@ -8,7 +8,7 @@
 
         mydt = New DataTable
         noErrors = False
-        myconn.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\wamp\www\broke-mobile\broke-mobile\brokeMobileDB.mdf;Integrated Security=True;Connect Timeout=30"
+        myconn.ConnectionString = GlobalVariables.ConnectionString
         myconn.Open()
         mycommand = New SqlClient.SqlCommand
 
