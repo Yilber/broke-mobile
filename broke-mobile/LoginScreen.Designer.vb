@@ -27,14 +27,9 @@ Partial Class LoginScreen
         Me.LoginBtn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.WrongPassword = New System.Windows.Forms.Panel()
-        Me.PasswordResetBtn = New System.Windows.Forms.Button()
-        Me.TryAgainBtn = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.RegisterBtn = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.WrongPassword.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -104,67 +99,6 @@ Partial Class LoginScreen
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Password"
         '
-        'WrongPassword
-        '
-        Me.WrongPassword.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.WrongPassword.BackColor = System.Drawing.Color.White
-        Me.WrongPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.WrongPassword.Controls.Add(Me.PasswordResetBtn)
-        Me.WrongPassword.Controls.Add(Me.TryAgainBtn)
-        Me.WrongPassword.Controls.Add(Me.Label3)
-        Me.WrongPassword.Location = New System.Drawing.Point(401, 241)
-        Me.WrongPassword.Name = "WrongPassword"
-        Me.WrongPassword.Size = New System.Drawing.Size(206, 86)
-        Me.WrongPassword.TabIndex = 4
-        Me.WrongPassword.Visible = False
-        '
-        'PasswordResetBtn
-        '
-        Me.PasswordResetBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.PasswordResetBtn.AutoSize = True
-        Me.PasswordResetBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.PasswordResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.PasswordResetBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.PasswordResetBtn.ForeColor = System.Drawing.Color.White
-        Me.PasswordResetBtn.Location = New System.Drawing.Point(106, 39)
-        Me.PasswordResetBtn.Name = "PasswordResetBtn"
-        Me.PasswordResetBtn.Padding = New System.Windows.Forms.Padding(2)
-        Me.PasswordResetBtn.Size = New System.Drawing.Size(82, 31)
-        Me.PasswordResetBtn.TabIndex = 1
-        Me.PasswordResetBtn.Text = "Reset"
-        Me.PasswordResetBtn.UseVisualStyleBackColor = False
-        '
-        'TryAgainBtn
-        '
-        Me.TryAgainBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.TryAgainBtn.AutoSize = True
-        Me.TryAgainBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.TryAgainBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.TryAgainBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.TryAgainBtn.ForeColor = System.Drawing.Color.White
-        Me.TryAgainBtn.Location = New System.Drawing.Point(18, 39)
-        Me.TryAgainBtn.Name = "TryAgainBtn"
-        Me.TryAgainBtn.Padding = New System.Windows.Forms.Padding(2)
-        Me.TryAgainBtn.Size = New System.Drawing.Size(82, 31)
-        Me.TryAgainBtn.TabIndex = 1
-        Me.TryAgainBtn.Text = "Try again"
-        Me.TryAgainBtn.UseVisualStyleBackColor = False
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(160, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(38, 16)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(3)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(129, 17)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Wrong Password"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'RegisterBtn
         '
         Me.RegisterBtn.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -214,7 +148,6 @@ Partial Class LoginScreen
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 566)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.WrongPassword)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.RegisterBtn)
@@ -225,8 +158,6 @@ Partial Class LoginScreen
         Me.Name = "LoginScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.WrongPassword.ResumeLayout(False)
-        Me.WrongPassword.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -239,10 +170,6 @@ Partial Class LoginScreen
     Friend WithEvents LoginBtn As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents WrongPassword As Panel
-    Friend WithEvents TryAgainBtn As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents PasswordResetBtn As Button
     Friend WithEvents RegisterBtn As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox

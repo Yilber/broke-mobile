@@ -105,6 +105,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="CustomMessageBox.Designer.vb">
+      <DependentUpon>CustomMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="HistoryScreen.Designer.vb">
       <DependentUpon>HistoryScreen.vb</DependentUpon>
     </Compile>
@@ -173,6 +179,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AboutUsScreen.resx">
       <DependentUpon>AboutUsScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HistoryScreen.resx">
       <DependentUpon>HistoryScreen.vb</DependentUpon>

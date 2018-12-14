@@ -7,17 +7,6 @@
         SplashScreen.Close()
     End Sub
 
-    Private Sub TryAgainBtn_Click(sender As Object, e As EventArgs) Handles TryAgainBtn.Click
-        'hides the try again panel'
-        WrongPassword.Visible = False
-    End Sub
-
-    Private Sub PasswordResetBtn_Click(sender As Object, e As EventArgs) Handles PasswordResetBtn.Click
-        'opens reset page'
-        ResetScreen.Show()
-        Hide()
-    End Sub
-
     Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
         Dim myconn As New SqlClient.SqlConnection
         Dim mycommand As New SqlClient.SqlCommand
@@ -44,7 +33,15 @@
             Hide()
         Else
             'shows wrong password'
-            WrongPassword.Visible = True
+            CustomMessageBox.Message.Text = "Wrong password"
+            CustomMessageBox.Ok_Button.Text = "Try again"
+            CustomMessageBox.Cancel_Button.Text = "Reset"
+            CustomMessageBox.Cancel_Button.Visible = True
+
+            If CustomMessageBox.ShowDialog() = DialogResult.Cancel Then
+                Hide()
+                ResetScreen.Show()
+            End If
         End If
     End Sub
 
