@@ -100,11 +100,6 @@
     <Compile Include="AboutUsScreen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="brokeMobileDBDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="CustomMessageBox.Designer.vb">
       <DependentUpon>CustomMessageBox.vb</DependentUpon>
     </Compile>
@@ -138,12 +133,6 @@
       <DependentUpon>ProductInformation.vb</DependentUpon>
     </Compile>
     <Compile Include="ProductInformation.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProductPageScreen.Designer.vb">
-      <DependentUpon>ProductPageScreen.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ProductPageScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RegisterScreen.Designer.vb">
@@ -207,9 +196,6 @@
     <EmbeddedResource Include="ProductInformation.resx">
       <DependentUpon>ProductInformation.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductPageScreen.resx">
-      <DependentUpon>ProductPageScreen.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="RegisterScreen.resx">
       <DependentUpon>RegisterScreen.vb</DependentUpon>
     </EmbeddedResource>
@@ -233,17 +219,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="brokeMobileDBDataSet.xsc">
-      <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="brokeMobileDBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>brokeMobileDBDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="brokeMobileDBDataSet.xss">
-      <DependentUpon>brokeMobileDBDataSet.xsd</DependentUpon>
-    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

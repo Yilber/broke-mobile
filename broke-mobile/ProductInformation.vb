@@ -1,5 +1,4 @@
 ﻿Public Class ProductInformation
-
     Dim myconnection As New SqlClient.SqlConnection
     Dim mycommand As New SqlClient.SqlCommand
     Dim myadapter As New SqlClient.SqlDataAdapter
@@ -91,27 +90,27 @@
     End Sub
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
-        Me.Hide()
+        Me.Close()
         MainScreen.Show()
     End Sub
 
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
-        Me.Hide()
+        Me.Close()
         HistoryScreen.Show()
     End Sub
 
     Private Sub btnShoppingCart_Click(sender As Object, e As EventArgs) Handles btnShoppingCart.Click
-        Me.Hide()
+        Me.Close()
         ShoppingCartScreen.Show()
     End Sub
 
     Private Sub btnAboutUs_Click(sender As Object, e As EventArgs) Handles btnAboutUs.Click
-        Me.Hide()
+        Me.Close()
         AboutUsScreen.Show()
     End Sub
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
-        Me.Hide()
+        Me.Close()
         LoginScreen.Show()
     End Sub
 

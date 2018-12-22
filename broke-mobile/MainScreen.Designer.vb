@@ -69,7 +69,7 @@ Partial Class MainScreen
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox1.Image = Global.broke_mobile.My.Resources.Resources.Budget_Mobile
-        Me.PictureBox1.Location = New System.Drawing.Point(230, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(266, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(542, 85)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -157,7 +157,7 @@ Partial Class MainScreen
         'PictureBox2
         '
         Me.PictureBox2.Location = New System.Drawing.Point(23, 25)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -168,7 +168,7 @@ Partial Class MainScreen
         'PictureBox3
         '
         Me.PictureBox3.Location = New System.Drawing.Point(158, 25)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -179,7 +179,7 @@ Partial Class MainScreen
         'PictureBox4
         '
         Me.PictureBox4.Location = New System.Drawing.Point(286, 25)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -190,7 +190,7 @@ Partial Class MainScreen
         'PictureBox5
         '
         Me.PictureBox5.Location = New System.Drawing.Point(413, 25)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -201,7 +201,7 @@ Partial Class MainScreen
         'PictureBox6
         '
         Me.PictureBox6.Location = New System.Drawing.Point(536, 25)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -212,7 +212,7 @@ Partial Class MainScreen
         'PictureBox7
         '
         Me.PictureBox7.Location = New System.Drawing.Point(23, 167)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -223,7 +223,7 @@ Partial Class MainScreen
         'PictureBox8
         '
         Me.PictureBox8.Location = New System.Drawing.Point(158, 167)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -234,7 +234,7 @@ Partial Class MainScreen
         'PictureBox9
         '
         Me.PictureBox9.Location = New System.Drawing.Point(286, 167)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -245,7 +245,7 @@ Partial Class MainScreen
         'PictureBox10
         '
         Me.PictureBox10.Location = New System.Drawing.Point(413, 167)
-        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -256,7 +256,7 @@ Partial Class MainScreen
         'PictureBox11
         '
         Me.PictureBox11.Location = New System.Drawing.Point(536, 167)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -267,7 +267,7 @@ Partial Class MainScreen
         'PictureBox12
         '
         Me.PictureBox12.Location = New System.Drawing.Point(23, 310)
-        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -278,7 +278,7 @@ Partial Class MainScreen
         'PictureBox13
         '
         Me.PictureBox13.Location = New System.Drawing.Point(158, 310)
-        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -289,7 +289,7 @@ Partial Class MainScreen
         'PictureBox14
         '
         Me.PictureBox14.Location = New System.Drawing.Point(286, 310)
-        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -300,7 +300,7 @@ Partial Class MainScreen
         'PictureBox15
         '
         Me.PictureBox15.Location = New System.Drawing.Point(413, 310)
-        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -311,7 +311,7 @@ Partial Class MainScreen
         'PictureBox16
         '
         Me.PictureBox16.Location = New System.Drawing.Point(536, 310)
-        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(97, 122)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -337,8 +337,8 @@ Partial Class MainScreen
         Me.Panel2.Controls.Add(Me.PictureBox8)
         Me.Panel2.Controls.Add(Me.PictureBox9)
         Me.Panel2.Controls.Add(Me.PictureBox4)
-        Me.Panel2.Location = New System.Drawing.Point(171, 105)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Location = New System.Drawing.Point(202, 105)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(659, 457)
         Me.Panel2.TabIndex = 17
