@@ -4,8 +4,6 @@
     Dim mycommand As New SqlClient.SqlCommand
     Dim myadapter As New SqlClient.SqlDataAdapter
     Dim mydt As New DataTable
-
-
     Dim r As New Random
 
     Public Sub New()
@@ -15,10 +13,11 @@
 
         ' Add any initialization after the InitializeComponent() call.
         Dim picbox As PictureBox() = New PictureBox() {PictureBox2, PictureBox3, PictureBox4, PictureBox5, PictureBox6, PictureBox7, PictureBox8, PictureBox9, PictureBox10, PictureBox11, PictureBox12, PictureBox13, PictureBox14, PictureBox15, PictureBox16}
-        myconnection.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\alber\source\repos\broke-mobile-master\broke-mobile\brokeMobileDB.mdf;Integrated Security=True;Connect Timeout=30"
+        myconnection.ConnectionString = GlobalVariables.ConnectionString
         myconnection.Open()
         mycommand = New SqlClient.SqlCommand
         mycommand.Parameters.Add("@id", SqlDbType.Int, 10, "id")
+
         For i As Integer = 1 To 15
             mycommand.Parameters("@id").Value = i
             mycommand.CommandText = "Select picture from products where id=@id"
@@ -27,8 +26,7 @@
             myadapter.SelectCommand = mycommand
             myadapter.Fill(mydt)
 
-            picbox(i - 1).Image = Image.FromFile(mydt.Rows(0).Item(0).ToString)
-
+            picbox(i - 1).Image = My.Resources.ResourceManager.GetObject(mydt.Rows(0).Item(0).ToString)
         Next
         myconnection.Close()
 
@@ -39,15 +37,9 @@
 
     Private Sub clickloop(sender As Object, e As EventArgs)
         Dim b As PictureBox = CType(sender, PictureBox)
-        Dim frm1 As New ProductInformation(b.Tag)
+        GlobalVariables.ProductID = b.Tag
         Me.Hide()
-        frm1.Show()
-
-    End Sub
-
-
-    Private Sub MainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ProductInformation.Show()
     End Sub
 
     Private Sub MainScreen_Closed(sender As Object, e As EventArgs) Handles Me.Closed
@@ -115,8 +107,7 @@
     End Sub
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
-        Me.Hide()
-        ProductPageScreen.Show()
+
     End Sub
 
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
@@ -139,5 +130,7 @@
         LoginScreen.Show()
     End Sub
 
+    Private Sub MainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

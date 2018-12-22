@@ -61,7 +61,7 @@
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
         Me.Hide()
-        ProductPageScreen.Show()
+        MainScreen.Show()
     End Sub
 
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
