@@ -78,4 +78,8 @@
         Me.Hide()
         LoginScreen.Show()
     End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click, Label9.Click
+
+    End Sub
 End Class

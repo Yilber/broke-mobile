@@ -1,5 +1,51 @@
 ﻿Public Class MainScreen
+
+    Dim myconnection As New SqlClient.SqlConnection
+    Dim mycommand As New SqlClient.SqlCommand
+    Dim myadapter As New SqlClient.SqlDataAdapter
+    Dim mydt As New DataTable
+
+
     Dim r As New Random
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+        Dim picbox As PictureBox() = New PictureBox() {PictureBox2, PictureBox3, PictureBox4, PictureBox5, PictureBox6, PictureBox7, PictureBox8, PictureBox9, PictureBox10, PictureBox11, PictureBox12, PictureBox13, PictureBox14, PictureBox15, PictureBox16}
+        myconnection.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\alber\source\repos\broke-mobile-master\broke-mobile\brokeMobileDB.mdf;Integrated Security=True;Connect Timeout=30"
+        myconnection.Open()
+        mycommand = New SqlClient.SqlCommand
+        mycommand.Parameters.Add("@id", SqlDbType.Int, 10, "id")
+        For i As Integer = 1 To 15
+            mycommand.Parameters("@id").Value = i
+            mycommand.CommandText = "Select picture from products where id=@id"
+            mycommand.Connection = myconnection
+            mydt = New DataTable
+            myadapter.SelectCommand = mycommand
+            myadapter.Fill(mydt)
+
+            picbox(i - 1).Image = Image.FromFile(mydt.Rows(0).Item(0).ToString)
+
+        Next
+        myconnection.Close()
+
+        For i As Integer = 0 To 14
+            AddHandler picbox(i).Click, AddressOf clickloop
+        Next
+    End Sub
+
+    Private Sub clickloop(sender As Object, e As EventArgs)
+        Dim b As PictureBox = CType(sender, PictureBox)
+        Dim frm1 As New ProductInformation(b.Tag)
+        Me.Hide()
+        frm1.Show()
+
+    End Sub
+
+
     Private Sub MainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -92,4 +138,6 @@
         Me.Hide()
         LoginScreen.Show()
     End Sub
+
+
 End Class
